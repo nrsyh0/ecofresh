@@ -45,7 +45,7 @@ with st.sidebar:
 # PAGE: HOME
 # ============================
 if selected == "Home":
-    st.title("🌿 EcoFresh — Edukasi Deodoran Fermentasi dari Limbah Sayur")
+    st.title("🌿 EcoFresh — Dari Alam, Untuk Kehidupan yang Lebih Baik")
     st.write("""
     **Selamat datang di EcoFresh!**
 
