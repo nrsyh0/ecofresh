@@ -1,0 +1,8 @@
+streamlit
+streamlit-option-menu
+chempy
+periodictable
+pandas
+numpy
+matplotlib
+scikit-learn
