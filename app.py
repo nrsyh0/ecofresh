@@ -47,15 +47,16 @@ with st.sidebar:
 if selected == "Home":
     st.title("🌿 EcoFresh — Edukasi Deodoran Fermentasi dari Limbah Sayur")
     st.write("""
-    **Selamat datang di EcoFresh!**  
+    **Selamat datang di EcoFresh!**
+
     EcoFresh adalah platform edukasi mengenai inovasi *deodoran alami berbahan dasar limbah sayur hasil fermentasi*.  
     Website ini dirancang sebagai media informasi interaktif untuk memahami bagaimana sisa sayuran dapat menjadi produk yang aman, bermanfaat, dan ramah lingkungan.
 
     Melalui EcoFresh, kamu dapat mempelajari:
-    - Mengapa limbah sayur dipilih sebagai bahan dasar
-    - Peran fermentasi dalam menghasilkan senyawa aktif
-    - Kandungan dan manfaat produk deodoran alami
-    - Jawaban atas pertanyaan umum pengguna
+    - Mengapa limbah sayur dipilih sebagai bahan dasar  
+    - Peran fermentasi dalam menghasilkan senyawa aktif  
+    - Kandungan dan manfaat produk deodoran alami  
+    - Jawaban atas pertanyaan umum pengguna  
 
     EcoFresh hadir untuk mengajak masyarakat memilih gaya hidup yang lebih alami dan berkelanjutan.
     """)
@@ -77,10 +78,10 @@ elif selected == "Tentang Produk":
 
     st.subheader("Mengapa Limbah Sayur?")
     st.write("""
-    - Masih mengandung senyawa organik yang bermanfaat.  
-    - Fermentasi meningkatkan aktivitas mikroba baik yang menghasilkan senyawa antibakteri dan antijamur.  
-    - Mendukung konsep **zero waste**.  
-    - Menjadi alternatif alami yang lebih aman daripada bahan kimia sintetis.  
+    - Masih mengandung senyawa organik yang bermanfaat  
+    - Fermentasi meningkatkan aktivitas mikroba baik  
+    - Mendukung konsep **zero waste**  
+    - Menjadi alternatif alami yang lebih aman dibanding bahan kimia sintetis  
     """)
 
 # ============================
@@ -91,10 +92,10 @@ elif selected == "Kandungan & Manfaat":
 
     st.subheader("Kandungan Aktif Utama")
     st.write("""
-    - **NTB (Natural Termentasi Bakteri):** Menghambat pertumbuhan bakteri penyebab bau badan.  
-    - **Asam organik alami:** Menjaga pH kulit tetap stabil.  
-    - **Antioksidan:** Membantu merawat kesehatan kulit.  
-    - **Senyawa antijamur alami:** Mengurangi risiko iritasi pada area ketiak.  
+    - **NTB (Natural Termentasi Bakteri):** Menghambat pertumbuhan bakteri penyebab bau badan  
+    - **Asam organik alami:** Menjaga pH kulit tetap stabil  
+    - **Antioksidan:** Membantu merawat kesehatan kulit  
+    - **Senyawa antijamur alami:** Mengurangi risiko iritasi pada area ketiak  
     """)
 
     st.subheader("Manfaat untuk Kulit")
@@ -121,20 +122,30 @@ elif selected == "Kandungan & Manfaat":
 elif selected == "FAQ":
     st.title("❓ Frequently Asked Questions (FAQ)")
 
-    st.write("**1. Apakah EcoFresh aman untuk kulit sensitif?**  
-    Ya, karena terbuat dari bahan alami tanpa zat kimia keras.")
+    st.write("""
+    **1. Apakah EcoFresh aman untuk kulit sensitif?**  
+    Ya, karena terbuat dari bahan alami tanpa zat kimia keras.
+    """)
 
-    st.write("**2. Apakah aromanya tahan lama?**  
-    Aromanya lembut dan alami, ketahanan tergantung aktivitas harian.")
+    st.write("""
+    **2. Apakah aromanya tahan lama?**  
+    Aromanya lembut dan alami, ketahanan tergantung aktivitas harian.
+    """)
 
-    st.write("**3. Bagaimana cara penyimpanan produk?**  
-    Simpan di tempat sejuk dan hindari sinar matahari langsung.")
+    st.write("""
+    **3. Bagaimana cara penyimpanan produk?**  
+    Simpan di tempat sejuk dan hindari sinar matahari langsung.
+    """)
 
-    st.write("**4. Apakah aman digunakan setiap hari?**  
-    Aman, karena tidak mengandung zat berbahaya.")
+    st.write("""
+    **4. Apakah aman digunakan setiap hari?**  
+    Aman, karena tidak mengandung zat berbahaya.
+    """)
 
-    st.write("**5. Apakah hasil fermentasi tidak berbahaya?**  
-    Fermentasi dilakukan secara terkontrol sehingga menghasilkan bakteri baik yang aman.")
+    st.write("""
+    **5. Apakah hasil fermentasi tidak berbahaya?**  
+    Fermentasi dilakukan secara terkontrol sehingga menghasilkan bakteri baik yang aman.
+    """)
 
 # ============================
 # PAGE: KONTAK
